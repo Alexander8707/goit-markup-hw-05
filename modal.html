@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css"
+        integrity="sha512-sqIVMkf5f8XGYI/UZYGs7wODxlUeoj9JknataPfUwtvrSKWMHrMXGZ7Evb6nabFYJQG15vFFyALe6r0nWCD1Ug=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="css/modal.css">
+</head>
+<body>
+    <a href="/index.html">Takaisin pääsivulle</a>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam quibusdam quod optio labore excepturi qui sit, veritatis ut eos voluptate fuga assumenda libero tenetur delectus neque! Voluptatem corporis modi dolorum?</p>
+
+    <button class="btn-open" data-modal-open>Avata modal</button>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto sint quos tempora neque ut, recusandae id in cupiditate autem nulla ullam tenetur ipsam dolore numquam reiciendis itaque, optio fugiat quibusdam.</p>
+
+    <div class="backdrop is-hidden " data-modal>
+       <div class="modal">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat obcaecati unde itaque facilis debitis quod harum porro earum eveniet pariatur!</p>
+           <button class="btn-close" data-modal-close>
+               <svg class="btn-icon" width="15" height="15" >
+                   <use href="./image/sprite-2.svg#close-black"></use>
+               </svg>
+           </button>
+       </div> 
+    </div>
+    <script src="./js/modal.js"></script>
+</body>
+</html>
